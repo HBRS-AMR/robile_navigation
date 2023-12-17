@@ -2,14 +2,14 @@
 Navigation launch files for robile in gazebo and real robot
 
 
-## Instalation
+## Installation
 
 This package depends on the robile packages and different ros navigation packages for the launch files to run.
 
 1. [Robile Description]()
 2. [Robile Gazebo]()
 
-Follow the [robile_gazebo]() instalation instructions and install the apt packages required for gazebo and launching robot in gazebo.
+Follow the [robile_gazebo]() installation instructions and install the apt packages required for gazebo and launching robot in gazebo.
 Here we install packages required for navigation.
 ~~~ sh
 sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs ros-$ROS_DISTRO-gmapping ros-$ROS_DISTRO-amcl ros-$ROS_DISTRO-map-server ros-$ROS_DISTRO-move-base ros-$ROS_DISTRO-dwa-local-planner
